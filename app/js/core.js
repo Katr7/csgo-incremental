@@ -159,5 +159,4 @@ var teams = {
         totalWins: 0,
         totalLoses: 0
     }
-    test
 };
