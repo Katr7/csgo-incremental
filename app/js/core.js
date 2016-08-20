@@ -169,3 +169,7 @@ function getRandomInt(min, max) {
 window.setInterval(function(){
 
 }, 1000);
+
+for (var team in teams) {
+	$('#teams-table').append('<tr>' + '<th>#' + teams[team].rank + '</th>' + '<th>' + team + '</th>' + '<th>' + teams[team].power + '</th>' +'</tr>');
+};
