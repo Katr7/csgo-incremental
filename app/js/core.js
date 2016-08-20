@@ -165,3 +165,7 @@ function getRandomInt(min, max) {
     output = Math.floor(Math.random() * (max - min + 1) + min);
     return output;
 };
+
+window.setInterval(function(){
+
+}, 1000);
